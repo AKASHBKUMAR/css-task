@@ -66,7 +66,7 @@
     </html>
 
 ### OUTPUT:
-
+![](https://github.com/AKASHBKUMAR/css-task/blob/main/assets/images/Output.jpeg?raw=true)
 ### RESULT:
 
     Thus, the program has been completed successfully.
