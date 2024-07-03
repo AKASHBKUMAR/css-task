@@ -20,6 +20,7 @@
 }
 h1 {
   font-size: 6.4rem;
+  text-align: center;
 }
 .search-bar {
   display: flex;
@@ -50,6 +51,9 @@ address {
   color: #f8f9fa;
   font-size: 1.8rem;
   text-decoration: none;
+}
+h4 {
+  text-align: center;
 }
 .contact-us {
   display: flex;
@@ -83,6 +87,7 @@ label {
   display: flex;
   flex-direction: column;
   gap: 3.6rem;
+  width: min-content;
 }
 .email,
 .phone,
