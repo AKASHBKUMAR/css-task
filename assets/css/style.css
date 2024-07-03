@@ -1,0 +1,96 @@
+* {
+  font-family: "Noto Sans";
+  font-size: 62.5%;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  color: #fff;
+  background-color: #000;
+}
+.header-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2.4rem 0 2.4rem 0;
+}
+.main-navigation {
+  display: flex;
+  list-style: none;
+  gap: 2.4rem;
+}
+h1 {
+  font-size: 6.4rem;
+}
+.search-bar {
+  display: flex;
+  font-size: 1.2em;
+  padding: 2rem;
+  align-items: center;
+}
+
+.search-text {
+  background-color: #f03e3e;
+  font-size: 1.2rem;
+  padding: 1.8rem 1.6rem 1.8rem 1.6rem;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.search-text:hover {
+  background-color: #fa5252;
+}
+.search {
+  display: block;
+  font-size: 1.2rem;
+  background-color: #6f8faf;
+  padding: 1.8rem 7rem 1.8rem 1.6rem;
+}
+.link:link,
+.link:visited,
+address {
+  color: #f8f9fa;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+  padding: 2.4rem;
+  margin: 2.4rem;
+  border: 3px solid #fff;
+  width: fit-content;
+  border-radius: 1.2rem;
+}
+.input-name {
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 1.8rem;
+  width: fit-content;
+}
+.contact-us-heading {
+  font-size: 1.8rem;
+}
+label {
+  color: #f03e3e;
+  font-size: 2.4rem;
+}
+.contact-info {
+  border: 4px solid #fff;
+  padding: 2.4rem;
+  margin: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+}
+.email,
+.phone,
+.address {
+  display: flex;
+  flex-direction: column;
+}
+.content-section {
+  display: flex;
+  gap: 3.6rem;
+}
